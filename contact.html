@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Estimate & Contact | No Mess Express Junk Removal — Reno & Sparks</title>
+<meta name="description" content="Get a free junk removal estimate from No Mess Express. Serving Reno, Sparks, Fernley, Carson City, Lemon Valley, Red Rock and Lake Tahoe. Message us for a free quote!">
+<meta name="theme-color" content="#050b1f">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <span>No Mess Express 🚛 Junk removal &amp; hauling in Reno, Sparks, Fernley, Carson City, Lemon Valley &amp; Red Rock. Message us for a free quote!</span>
+    <span>Call or text: <a data-phone="label" href="#">(775) 000-0000</a></span>
+  </div>
+</div>
+
+<nav class="nav">
+  <div class="container">
+    <a href="index.html" class="brand" aria-label="No Mess Express home">
+      <span class="brand-top">NO MESS</span>
+      <span class="brand-bottom">EXPRESS</span>
+    </a>
+    <button class="burger" aria-label="Menu" aria-expanded="false">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#how">How It Works</a>
+      <a href="index.html#areas">Service Areas</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="contact.html" class="btn btn-red">Free Estimate</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="container reveal">
+    <span class="eyebrow">Contact &amp; Free Estimate</span>
+    <h1>Let's clear it <span class="text-red">out.</span></h1>
+    <p class="lead" style="margin:0 auto">Build your estimate below in under a minute. Pick your load size, add any extras, and send it over — we'll confirm your exact price and pickup time.</p>
+  </div>
+</header>
+
+<section class="section" style="padding-top:20px">
+  <div class="container estimate-wrap">
+
+    <form class="panel reveal" id="estimate-form" novalidate>
+      <h3>1. How much junk?</h3>
+      <p class="sub">Sized by how much of our pickup truck bed your items fill.</p>
+      <div class="loads">
+        <label class="load"><input type="radio" name="load" value="min"><div class="bar" style="--fill:12%"></div><b>Single Item</b><small>1–2 pieces</small></label>
+        <label class="load"><input type="radio" name="load" value="quarter" checked><div class="bar" style="--fill:25%"></div><b>1/4 Load</b><small>Small pile</small></label>
+        <label class="load"><input type="radio" name="load" value="half"><div class="bar" style="--fill:50%"></div><b>1/2 Load</b><small>Room's worth</small></label>
+        <label class="load"><input type="radio" name="load" value="three"><div class="bar" style="--fill:75%"></div><b>3/4 Load</b><small>Garage-ish</small></label>
+        <label class="load"><input type="radio" name="load" value="full"><div class="bar" style="--fill:100%"></div><b>Full Load</b><small>Packed bed</small></label>
+      </div>
+
+      <h3>2. Any extras?</h3>
+      <p class="sub">Check anything that applies.</p>
+      <div class="extras">
+        <label class="extra"><input type="checkbox" name="extra" value="heavy">Heavy materials<em>+$40</em></label>
+        <label class="extra"><input type="checkbox" name="extra" value="appliance">Appliance / fridge<em>+$30</em></label>
+        <label class="extra"><input type="checkbox" name="extra" value="mattress">Mattress / box spring<em>+$25</em></label>
+        <label class="extra"><input type="checkbox" name="extra" value="tires">Tires (set of 4)<em>+$30</em></label>
+        <label class="extra"><input type="checkbox" name="extra" value="stairs">Stairs / long carry<em>+$20</em></label>
+        <label class="extra"><input type="checkbox" name="extra" value="sameday">Same-day service<em>+$40</em></label>
+      </div>
+
+      <h3>3. Your details</h3>
+      <p class="sub">We'll reach out to confirm — usually within the hour during business hours.</p>
+      <div class="form-grid">
+        <input class="input" name="name" placeholder="Full name *" required>
+        <input class="input" name="phone" type="tel" placeholder="Phone *" required>
+        <input class="input" name="email" type="email" placeholder="Email">
+        <select class="input" name="service" id="service" required>
+          <option>Junk Removal</option>
+          <option>House Cleanout</option>
+          <option>Dump Run</option>
+          <option>Furniture Removal</option>
+          <option>Appliance Removal</option>
+          <option>Garage / Storage Cleanout</option>
+          <option>Yard / Debris Removal</option>
+          <option>Commercial / Business</option>
+          <option>Other</option>
+        </select>
+        <select class="input" name="area" id="area" required></select>
+        <input class="input" name="address" placeholder="Address or cross streets">
+        <input class="input" name="date" type="date" aria-label="Preferred date">
+        <select class="input" name="time" aria-label="Preferred time">
+          <option>Morning (8 AM – 1 PM)</option>
+          <option>Afternoon (2 PM – 7 PM)</option>
+          <option>Flexible / anytime</option>
+        </select>
+        <textarea class="input full" name="details" placeholder="What are we hauling? (e.g. old couch, fridge, 10 bags of yard waste, garage cleanout...)"></textarea>
+      </div>
+      <button class="btn btn-red" type="submit" style="margin-top:22px;width:100%;justify-content:center">Send My Free Estimate Request →</button>
+      <p class="fine">📸 Tip: text us a few photos for the most accurate quote.</p>
+      <div class="success" id="form-success">✅ Thanks! Your estimate request is ready to send. We'll get back to you shortly to confirm your price and pickup time.</div>
+    </form>
+
+    <aside class="quote-box">
+      <div class="panel reveal">
+        <span class="eyebrow">Your online estimate</span>
+        <div class="quote-total" id="quote-total">$0</div>
+        <p class="fine" style="margin-top:0">Estimated range — final price confirmed on-site before we start.</p>
+        <ul class="quote-lines" id="quote-lines"></ul>
+        <p class="fine">Includes labor, loading, hauling, disposal fees &amp; sweep-up. Hazardous materials not accepted.</p>
+      </div>
+
+      <div class="panel reveal" style="margin-top:22px">
+        <h3>Prefer to talk?</h3>
+        <p class="sub" style="margin-bottom:0">No Mess Express 🚛 Junk removal &amp; hauling in Reno, Sparks, Fernley, Carson City, Lemon Valley &amp; Red Rock. Message us for a free quote!</p>
+        <ul class="contact-list">
+          <li><span>📞</span><div><small>Call</small><a data-phone="label" href="#">(775) 000-0000</a></div></li>
+          <li><span>💬</span><div><small>Text photos</small><a data-sms href="#">Send us a text</a></div></li>
+          <li><span>✉️</span><div><small>Email</small><a data-email="label" href="#">info@nomessexpress.com</a></div></li>
+          <li><span>📅</span><div><small>Book online</small><a data-booksy href="#">Schedule on Booksy</a></div></li>
+          <li><span>🕗</span><div><small>Hours</small>Daily · 8:00 AM – 7:00 PM</div></li>
+          <li><span>📍</span><div><small>Based in</small>Sparks, NV 89434</div></li>
+        </ul>
+      </div>
+    </aside>
+
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <a href="index.html" class="brand"><span class="brand-top">NO MESS</span><span class="brand-bottom">EXPRESS</span></a>
+        <p class="tagline">Clean Space, Less Stress</p>
+        <p>Junk removal &amp; hauling in Reno, Sparks, Fernley, Carson City, Lemon Valley &amp; Red Rock. Message us for a free quote!</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul><li><a href="index.html#services">House Cleanouts</a></li><li><a href="index.html#services">Junk Removal</a></li><li><a href="index.html#services">Dump Runs</a></li><li><a href="index.html#services">Eco-Friendly Disposal</a></li><li><a href="index.html#services">Appliance Removal</a></li></ul>
+      </div>
+      <div>
+        <h4>Areas</h4>
+        <ul><li>Reno &amp; Sparks</li><li>Fernley</li><li>Carson City</li><li>Lemon Valley &amp; Red Rock</li><li>Lake Tahoe</li></ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a data-phone="label" href="#">(775) 000-0000</a></li>
+          <li><a data-email="label" href="#">info@nomessexpress.com</a></li>
+          <li>Sparks, NV 89434</li>
+          <li>Daily · 8:00 AM – 7:00 PM</li>
+          <li><a data-booksy href="#">Book on Booksy →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy"><span>© <span data-year></span> No Mess Express Junk Removal &amp; Hauling. All rights reserved.</span><span>Website by <a href="https://www.nexoradigital.live" target="_blank" rel="noopener">Nexora Digital</a></span></div>
+  </div>
+</footer>
+
+<div class="mobile-bar"><a data-phone href="#">📞 Call</a><a data-sms href="#">💬 Text Us</a></div>
+
+<script src="script.js"></script>
+</body>
+</html>
